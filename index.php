@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<form name="form_imc" id="form_imc" method="POST" enctype="multipart/form-data" action="index.php" >
+<form name="form_imc" id="form_imc" method="POST" enctype="multipart/form-data" action="imc.php" >
 	  <div class="form-group">
 		<label for="altura">Altura</label>
 		<input type="number" step="0.01" min="1" class="form-control" id="altura" name="altura">
