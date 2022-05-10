@@ -18,6 +18,7 @@ $peso = $_POST['peso'];
 $altura = $_POST['altura'];
 $total = $peso/($altura**2);
 
+
  if($total < 16){
     echo"Destnutrição grau 3";
 } elseif($total >= 16 && $total <17){
